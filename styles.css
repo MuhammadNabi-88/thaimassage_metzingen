@@ -169,3 +169,24 @@ footer {
         aspect-ratio: 1 / 1;
     }
 }
+/* 'whatsApp button' */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5d;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
