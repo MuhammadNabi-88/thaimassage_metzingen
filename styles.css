@@ -40,9 +40,15 @@ header {
     background: #555;
     border-radius: 5px;
 }
+.phone-icon {
+    color: #69e38b;
+    font-size: 24px;
+}
 .terminText h2{
     text-align: center;
+    padding: 15px 0px 0pc 99px;
     color: #69e38b;
+    /* margin-top: 50px; */
 }
 .full-image {
     width: 100%;
@@ -187,6 +193,6 @@ footer {
 
 @media (max-width: 600px) {
     .container {
-        width: 90%;
+/*         width: 90%; */
     }
 }
